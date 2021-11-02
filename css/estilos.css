@@ -46,6 +46,14 @@ body {
   margin-left: 2%;
 }
 
+.header .active {
+  color: salmon;
+}
+
+.header .active {
+  color: salmon;
+}
+
 .ofertas__titulo {
   color: #5E454B;
   font-size: 5vh;

@@ -12,3 +12,15 @@
     margin-top: 3px;
     
 }
+@mixin baseBoton{
+    border-radius: 3px;
+        border: 1px solid $bordeContenedores;
+        color: $colortitulos ;
+        background-color: $fondoCeleste ;
+        
+        &:hover{
+            border: solid 1.5px black ;
+            
+        }
+
+}

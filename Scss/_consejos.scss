@@ -22,7 +22,7 @@
         min-width: 300px; 
         min-height: 250px;
         padding: 15px;
-        color: rgb(110, 110, 110);
+        color: $textoParaFondo;
         opacity: 0.7;
         transition: all 1s;
         &__titulo{

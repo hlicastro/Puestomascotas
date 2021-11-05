@@ -34,6 +34,7 @@ body {
 
 .header {
   background: #d7e9f7;
+  color: #727272;
 }
 
 .header .header__banner {
@@ -44,14 +45,6 @@ body {
 
 .header .header__navbar {
   margin-left: 2%;
-}
-
-.header .active {
-  color: salmon;
-}
-
-.header .active {
-  color: salmon;
 }
 
 .ofertas__titulo {
@@ -173,7 +166,7 @@ body {
 }
 
 .formularioDeContacto {
-  padding: 3%;
+  padding: 0%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -184,29 +177,50 @@ body {
 }
 
 .formularioDeContacto__dato {
-  margin: 15px 3px 10px 10px;
+  margin: 5%;
+}
+
+.formularioDeContacto .textoContacto {
+  color: #5E454B;
 }
 
 .formularioDeContacto__datos {
   border: solid;
   border-radius: 5%;
-  background-color: #ece3cd;
   margin: 5px 10% 5px 10%;
   padding: 2%;
 }
 
 .formularioDeContacto__datos__textArea {
-  max-width: 90%;
-  border-radius: 3%;
+  border: none;
+  margin: auto;
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 3px;
 }
 
-.formularioDeContacto input {
-  border: solid 1px;
+.formularioDeContacto .inputBox {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  width: 100%;
 }
 
-.formularioDeContacto input:hover {
-  -webkit-transform: scale(1.06);
-          transform: scale(1.06);
+.formularioDeContacto .inputBox:focus {
+  border: 1px solid #5E454B;
+}
+
+.formularioDeContacto .botonContacto {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3px;
+  border: 1px solid #868686;
+  color: #5E454B;
+  background-color: #d7e9f7;
+}
+
+.formularioDeContacto .botonContacto:hover {
+  border: solid 1.5px black;
 }
 
 .baseConsejos, .consejos .consejos__titulo, .cambioAlimento .cambioAlimento__titulo, .cuidadoCahorros .cuidadoCahorros__titulo {
@@ -236,7 +250,7 @@ body {
   min-width: 300px;
   min-height: 250px;
   padding: 15px;
-  color: #6e6e6e;
+  color: #727272;
   opacity: 0.7;
   -webkit-transition: all 1s;
   transition: all 1s;
@@ -332,13 +346,18 @@ body {
 .accesorios__elementos button {
   margin: 5%;
   width: 90%;
-  border-radius: 10%;
-  text-align: center;
+  border-radius: 3px;
+  border: 1px solid #868686;
+  color: #5E454B;
+  background-color: #d7e9f7;
+}
+
+.accesorios__elementos button:hover {
+  border: solid 1.5px black;
 }
 
 .accesorios__elementos:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  border: solid 10px rgba(0, 0, 0, 0.377);
 }
 
 .pagina404__titulo {
@@ -369,13 +388,16 @@ body {
   background-color: #d7e9f7;
   padding: 15px;
   text-align: center;
-  border-radius: 20%;
-  border: solid 1px #868686;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3px;
+  border: 1px solid #868686;
+  color: #5E454B;
+  background-color: #d7e9f7;
 }
 
 .pagina404__boton__link:hover {
-  color: black;
-  background-color: #dff1ff;
+  border: solid 1.5px black;
 }
 
 .pagina404__imagen {

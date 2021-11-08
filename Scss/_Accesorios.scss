@@ -18,7 +18,7 @@
         display: grid;
         align-content: space-between;
         border-radius: 5px;
-        border: solid 10px whitesmoke;
+        border: solid 6px $bordeImagen;
         background-color: $fondoCeleste;
         img{
             width: 100%;
@@ -35,7 +35,8 @@
             @include baseBoton();
         }
         &:hover{
-            border: solid 10px rgba(0, 0, 0, 0.377);
+            border: solid 6px $botonHover;
+            transform: scale(1.03);
         }
 
     }

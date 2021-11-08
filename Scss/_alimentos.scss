@@ -1,6 +1,6 @@
 .marcas{
     .marcas__titulo{
-        @include baseTitulo(4vw);
+        @include baseTitulo(6vh);
     }
     .marcas__lista{
         display: flex;
